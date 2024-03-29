@@ -172,3 +172,4 @@ QUIC tries to make an HTTPS connection between a computer (phone) and server wor
 - [What is HTTP/3?](https://www.cloudflare.com/learning/performance/what-is-http3/)
 - [HTTP/3: From root to tip](https://blog.cloudflare.com/http-3-from-root-to-tip)
 - [The QUICening](https://blog.cloudflare.com/the-quicening/)
+- [Blocking: The Web Performance Villain](https://bluetriangle.com/blog/blocking-web-performance-villain)
