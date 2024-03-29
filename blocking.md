@@ -43,6 +43,19 @@ When there are more files needing to load than connections available, it is inev
 ![Max connections](img/browser-connectios.png)
 
 
+## Browser popularity Feb 2024
+
+| Browser          | Market share (global) |
+|------------------|-----------------------|
+| Chrome           | 65.31%                |
+| Safari           | 18.31%                |
+| Edge             | 5.07%                 |
+| Firefox          | 3.04%                 |
+| Samsung Internet | 2.64%                 |
+| Opera            | 2.48%                 |
+
+![Browser market share](img/browser-mkt-share.png)
+
 ## References
 - [Blocking: The Web Performance Villain](https://bluetriangle.com/blog/blocking-web-performance-villain)
 - [chromium code](https://source.chromium.org/chromium/chromium/src/+/main:net/socket/client_socket_pool_manager.cc)
@@ -57,3 +70,5 @@ When there are more files needing to load than connections available, it is inev
     - [How Blink works](https://docs.google.com/document/d/1aitSOucL0VHZa9Z2vbRJSyAIsAz24kX8LFByQ5xQnUg/edit#heading=h.v5plba74lfde)
 
 - [Chromium's  Multi-process Architecture ](https://www.chromium.org/developers/design-documents/multi-process-architecture/)
+- [Chrome Platform status](https://chromestatus.com/roadmap)
+- [Browser market share](https://www.oberlo.com/statistics/browser-market-share)
