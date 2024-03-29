@@ -52,3 +52,8 @@ When there are more files needing to load than connections available, it is inev
 - [Google Chrome Breaks Up With Apple's WebKit](https://www.wired.com/2013/04/blink/)
 - [Blink](https://www.chromium.org/blink/)
     - [Blink Code - Google git](https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/blink/)
+    - [Blink: A rendering engine for the Chromium project](https://blog.chromium.org/2013/04/blink-rendering-engine-for-chromium.html)
+    - [KHTML](https://en.wikipedia.org/wiki/KHTML)
+    - [How Blink works](https://docs.google.com/document/d/1aitSOucL0VHZa9Z2vbRJSyAIsAz24kX8LFByQ5xQnUg/edit#heading=h.v5plba74lfde)
+
+- [Chromium's  Multi-process Architecture ](https://www.chromium.org/developers/design-documents/multi-process-architecture/)
