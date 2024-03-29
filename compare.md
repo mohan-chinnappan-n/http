@@ -146,6 +146,22 @@ The use of QUIC means that HTTP/3 relies on the **User Datagram Protocol (UDP)**
 - UDP (User Datagram Protocol)
     - Quick, fire and forget standard: you threw a packet across the network and it was caught, or sometimes it wasn’t.
 
+
+## QUIC
+
+QUIC tries to make an HTTPS connection between a computer (phone) and server work reliably despite the poor conditions, it does this with a collection of technologies.
+
+- QUIC  solves the HTTP/2 HoL problem.
+    - Since HTTP/2 sits on top of TCP and TCP guarantees delivery order if a packet gets lost the entire TCP connection has to wait while the missing packet is retransmitted.
+    - That’s OK if only one stream of data is passing over the TCP connection, but for efficiency it’s better to have **multiple streams per connection**.
+    - This means **all streams wait** when a packet gets lost. 
+    - QUIC solves that because it doesn’t rely on TCP for delivery and ordering and can make **an intelligent decision** about which streams need to wait and which can continue when a packet goes astray.
+    - QUIC controls all aspects of the connect it **merges together connection and encryption into a single handshake**.
+
+
+
+
+
 ## References
 
 - [http/2](https://http2.github.io/)
