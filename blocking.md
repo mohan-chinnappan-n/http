@@ -1,4 +1,4 @@
-## What is blocking
+## What is blocking?
 
 
 - We limit on the number of parallel connections that a browser can make to the same host. (6)
@@ -54,7 +54,7 @@ When there are more files needing to load than connections available, it is inev
 | Samsung Internet | 2.64%                 |
 | Opera            | 2.48%                 |
 
-![Browser market share](img/browser-mkt-share.png)
+![Browser market share](img/browser-mkt-share2.png)
 
 ## References
 - [Blocking: The Web Performance Villain](https://bluetriangle.com/blog/blocking-web-performance-villain)
